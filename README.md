@@ -1,6 +1,6 @@
 # Project Title
 
-A brief description of your project.
+This project uses javascript to simulate ceasar encryption using turing machine
 
 ## Getting Started
 
@@ -11,9 +11,3 @@ A brief description of your project.
 - `index.html`: Main HTML file
 - `script.js`: JavaScript logic
 - `style.css`: Stylesheet
-
-## Usage
-Describe how to use your project here.
-
-## License
-Specify your license here.
