@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caesar Cipher Turing Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Caesar Cipher Turing Machine</h1>
+    <form id="cipherForm">
+      <div class="input-group">
+        <label for="message">🔤 Message</label>
+        <input type="text" id="message" placeholder="Enter your secret message...">
+      </div>
+      <div class="input-group">
+        <label for="shift">🔁 Shift</label>
+        <input type="number" id="shift" value="3" min="0">
+      </div>
+      <div class="input-group">
+        <label for="mode">⚙️ Mode</label>
+        <select id="mode">
+          <option value="encrypt">Encrypt</option>
+          <option value="decrypt">Decrypt</option>
+        </select>
+      </div>
+      <button type="button" id="start">🚀 Start</button>
+    </form>
+
+    <div id="tapeContainer">
+      <div id="tape"></div>
+    </div>
+
+    <p id="output"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
