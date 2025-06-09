@@ -11,6 +11,3 @@ This project uses javascript to simulate ceasar encryption using turing machine
 - `index.html`: Main HTML file
 - `script.js`: JavaScript logic
 - `style.css`: Stylesheet
-
-## License
-Specify your license here.
